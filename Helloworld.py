@@ -37,9 +37,16 @@
 # a = 2 
 # b = 5
 
-# sum = a + b
+# sum = a + b 
 
 # print (sum)
+
+
+
+# comments ----------------------------------------
+ #- this is how we comment in python 
+
+
 
 
 
