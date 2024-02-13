@@ -47,7 +47,21 @@
 
 # Assignment Operator(=, =+, -=, *=, /=, **=)-----------------------------
 
-# .
+
+
+# Sum =+ 10 
+ 
+# print(Sum)
+
+# alp = 10 
+# Subtraction =+  alp + 5
+
+# print ("Sub ", Subtraction )
+
+
+
+
+
 
 
 # Logical Operator ( Not , OR, ANd) --------------------------------
@@ -55,4 +69,32 @@
 
 # a = 5
 # b = 7
+
+# print(not (a>b))
+# print( (a > b ) or (a = b))
+
+
+# Type Conversion 
+
+# - Type Conversion ( Automatic Conversion )
+ 
+# a = 10
+# b = 10.4
+
+# Sum = a + b
+
+# # print( Sum)
+
+
+# Type Casting 
+
+a = str("10")
+b = "Sailesh"
+
+sum = a + b
+print = (sum)
+
+
+ 
+
 
