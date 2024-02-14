@@ -88,11 +88,28 @@
 
 # Type Casting 
 
-a = str("10")
-b = "Sailesh"
+# a = str("10")
+# b = "Sailesh"
 
-sum = a + b
-print = (sum)
+# sum = a + b
+# print = (sum)
+
+
+# -------------------Input in python ---------------------------------
+
+Name = input("Write down your name ")
+
+print("Hi", Name)
+
+Age = int(input("write down your name too "))
+
+print("hi", Name, "Your age is :", Age)
+
+
+
+
+
+
 
 
  
