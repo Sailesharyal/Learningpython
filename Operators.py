@@ -97,13 +97,13 @@
 
 # -------------------Input in python ---------------------------------
 
-Name = input("Write down your name ")
+# Name = input("Write down your name ")
 
-print("Hi", Name)
+# print("Hi", Name)
 
-Age = int(input("write down your name too "))
+# Age = int(input("write down your Age too "))
 
-print("hi", Name, "Your age is :", Age)
+# print("hi", Name, "Your age is :", Age)
 
 
 
