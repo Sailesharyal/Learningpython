@@ -39,15 +39,38 @@
 
 #----------------------More function on String-----------------------#
 
-str = "My name is sailesh"
+# str = "My name is sailesh"
 
-print(str.endswith("sh"))
-print(str.endswith("sa"))
+# print(str.endswith("sh"))
+# print(str.endswith("sa"))
 
-str = str.capitalize()
+# str = str.capitalize()
 
-print(str.capitalize)
-print(str)
+# print(str.capitalize)
+# print(str)
+
+# print(str.replace("s", "e"))
+# print(str.find("m"))
+# print(str.count("Sailesh"))
+# print(str.upper())
+
+
+# --------------------------- Write a program to input users's first name & print its lenth ----------------------#
+
+User_name = input("Write down your name :")
+name_len = len(User_name)
+
+print( "The lenght of your name is ",name_len)
+
+
+
+# -------------------------------- Write a program to find the occurance of $ in a string -----------------------#
+
+Str = " hi & sailesh & how are you. $ i am fine here"
+print("the occuracne of $ is, ",Str.count("&"))
+
+
+
 
 
 
