@@ -50,21 +50,39 @@
 
 
 # 2 WAP TO Find the greatest of 3 number entered by the user
+# Number1 = int(input("Write down any Number")) 
+# Number2 = int(input("Write down any Number")) 
+# Number3 = int(input("Write down any Number")) 
 
-Number1 = int(input("Write down any Number")) 
-Number2 = int(input("Write down any Number")) 
-Number3 = int(input("Write down any Number")) 
-
-if (Number1 > Number2) and (Number1>Number3):
-    print("Number 1 is the Greatest Number")
-elif(Number2 > Number1) and (Number2>Number3):
-     print("Number 2 is the greatest Number")
-else:
-     print("Number 3 is the greatest Number")
-
-
+# if (Number1 > Number2) and (Number1>Number3):
+#     print("Number 1 is the Greatest Number")
+# elif(Number2 > Number1) and (Number2>Number3):
+#      print("Number 2 is the greatest Number")
+# else:
+#      print("Number 3 is the greatest Number")
 
 
 
 
 # 3 To check if  a number is  a multipal of 7 or not 
+# Number1 = int(input("Write Down any Number"))
+# Rem = Number1 % 7
+# if (Rem == 0):
+#     print("This is a Multipal of 7")
+# else:
+#     print("This is Not a multipal of 7")
+
+
+#4 WAP to display Hello if the number is div of 5 if not then print Bye 
+
+Num1 = int(input("Write donw any number"))
+rem = Num1 % 5 
+
+if(rem==0):
+    print("Hello")
+else: 
+    print("BYE")
+
+
+
+
