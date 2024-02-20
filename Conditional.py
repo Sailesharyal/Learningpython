@@ -105,5 +105,3 @@
 Num = int(input("Enter any number"))
 print("last Digit of number is ",Num%10)
 
-
-
