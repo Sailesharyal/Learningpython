@@ -75,14 +75,35 @@
 
 #4 WAP to display Hello if the number is div of 5 if not then print Bye 
 
-Num1 = int(input("Write donw any number"))
-rem = Num1 % 5 
+# Num1 = int(input("Write donw any number"))
+# rem = Num1 % 5 
 
-if(rem==0):
-    print("Hello")
-else: 
-    print("BYE")
+# if(rem==0):
+#     print("Hello")
+# else: 
+#     print("BYE")
 
+
+# WAP To write a program to write a Program to calculate the eelctricty 
+
+# amt = 0
+
+# unit = int(input("Put down the unit"))
+
+# if unit <= 100:
+#     print("Your bill is less than 100.So, no charge")
+# elif(unit> 100) and(unit<200):
+#     amt = (unit - 100) * 5
+# else:
+#     amt = 500 + (unit - 200)* 10
+
+# print(amt)
+
+
+# WAP to display the last digit of a number. 
+
+Num = int(input("Enter any number"))
+print("last Digit of number is ",Num%10)
 
 
 
