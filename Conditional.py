@@ -102,6 +102,15 @@
 
 # WAP to display the last digit of a number. 
 
-Num = int(input("Enter any number"))
-print("last Digit of number is ",Num%10)
+# Num = int(input("Enter any number"))
+# print("last Digit of number is ",Num%10)
 
+
+#WAP to  check the whether the last digiti of a number(By User) is divisible by 3 or not 
+
+num1 = int(input("write down any number"))
+id = num1% 10 
+if (id%3==0):
+    print("your number is divisible by 3")
+else:
+    print("Your number is not ")
