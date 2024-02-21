@@ -108,9 +108,37 @@
 
 #WAP to  check the whether the last digiti of a number(By User) is divisible by 3 or not 
 
+# num1 = int(input("write down any number"))
+# id = num1% 10 
+# if (id%3==0):
+#     print("your number is divisible by 3")
+# else:
+#     print("Your number is not ")
+
+
+# Wap to check the cost price of a bike 
+    
+# amt = 0
+# price = int(input("Write down the price of cost price"))
+# if (price > 100000):
+#     amt = (price)/100*15
+#     print("Your road tax is",amt)
+# elif(price > 50000) and (price<= 100000):
+#      amt = (price)/100*10
+#      print("Your road tax is",amt)
+# elif (price <= 50000) :
+#     amt = ((price)/100*5)
+#     print("Your road tax is",amt)
+
+
+#WAP to  check the whether the last digiti of a number(By User) is divisible by 6 or not 
+
 num1 = int(input("write down any number"))
 id = num1% 10 
-if (id%3==0):
+if (id%6==0):
     print("your number is divisible by 3")
 else:
     print("Your number is not ")
+
+
+    
