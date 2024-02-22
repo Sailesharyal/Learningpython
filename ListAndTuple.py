@@ -1,3 +1,4 @@
+"""
 # # # --------------List is used to store multiple data item in a single varibale 
 
 ThisIsList = ["apple" , "Car", "Cherry"]
@@ -76,9 +77,32 @@ print(My_list)
 My_list.pop(2)
 print(My_list)
 
+"""
 
 
+# Tupple(Tupple is immutable )
 
+tup = (1,2,3,4,3,5,7,4,4)
+
+print(tup)
+print(len(tup))
+print(type(tup))
+
+
+# Slicing in Tuple
+
+print(tup[0:2])
+
+print(tup[:3])
+
+print(tup[1:])
+
+
+#Indexing and Count Mehtods in tuple 
+
+print(tup.index(3))
+
+print(tup.count(4))
 
 
 

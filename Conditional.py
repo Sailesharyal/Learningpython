@@ -133,12 +133,12 @@
 
 #WAP to  check the whether the last digiti of a number(By User) is divisible by 6 or not 
 
-num1 = int(input("write down any number"))
-id = num1% 10 
-if (id%6==0):
-    print("your number is divisible by 3")
-else:
-    print("Your number is not ")
+# num1 = int(input("write down any number"))
+# id = num1% 10 
+# if (id%6==0):
+#     print("your number is divisible by 3")
+# else:
+#     print("Your number is not ")
 
 
     
