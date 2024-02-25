@@ -141,4 +141,25 @@
 #     print("Your number is not ")
 
 
+
+
+# if (marks >= 90):
+#     print("Your grade is A ")
+
+# elif ( marks >=80 and marks <= 90 ):
+#     print("Your grade is 'B'")
+# elif(marks >=70 and marks <= 80):
+#     print("your grade is 'C'")
+# elif(marks >=40 and marks <= 70):
+#     print("your grade is 'D'")
+# else:
+#     print("you are fail")
     
+
+
+#Write a Python program that asks the user to input their age. If the age is greater than or equal to 18
+age = int(input("Please enter your age: "))
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
