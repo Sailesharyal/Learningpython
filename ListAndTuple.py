@@ -79,6 +79,7 @@ print(My_list)
 
 """
 
+"""
 
 # Tupple(Tupple is immutable )
 
@@ -95,14 +96,16 @@ print(tup[0:2])
 
 print(tup[:3])
 
-print(tup[1:])
+print(tup[1::2])
 
 
 #Indexing and Count Mehtods in tuple 
 
-print(tup.index(3))
+print(tup.index(3))            # this method is used to know the index of the particular data 
 
-print(tup.count(4))
+print(tup.count(4))   # this method is used to  count a particular data
+
+"""
 
 
 
