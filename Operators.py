@@ -110,6 +110,30 @@
 
 
 
+#a = [10, 20]
+# b = a
+# b += [30, 40]
+# print(a)
+# print(b)
+
+
+# x = 100
+# y = 50
+# print(x and y)
+
+
+
+# x = 6
+# y = 2
+# print(x ** y)
+# print(x // y)
+
+
+
+# a = 4
+# b = 11
+# print(a | b)
+# print(a >> 2)
 
 
 
