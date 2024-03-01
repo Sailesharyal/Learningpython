@@ -158,8 +158,8 @@
 
 
 #Write a Python program that asks the user to input their age. If the age is greater than or equal to 18
-age = int(input("Please enter your age: "))
-if age >= 18:
-    print("You are an adult.")
-else:
-    print("You are a minor.")
+# age = int(input("Please enter your age: "))
+# if age >= 18:
+#     print("You are an adult.")
+# else:
+#     print("You are a minor.")
