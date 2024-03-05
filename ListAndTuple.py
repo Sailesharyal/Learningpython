@@ -109,6 +109,42 @@ print(tup.count(4))   # this method is used to  count a particular data
 
 
 
+# Ask the user for the theree movie watch bt them and store them in a list 
+
+movie = []
+
+# # mov1 = input("Write name of movie")
+# # mov2 = input("Write the name of second movie")
+# # mov3 = input("Wrtie the name of third movie")
+
+
+# # movie.append(mov1)
+# # movie.append(mov2)
+# # movie.append(mov3)
+
+# print(movie)
+
+
+
+
+mov = input("Put down any name of movie")
+movie.append(mov)
+mov = input("Put down the name of movie")
+movie.append(mov)
+mov = input("Write down the name of movie")
+movie.append(mov)
+
+print(movie)
+
+
+
+
+
+
+
+
+
+
 
 
 
