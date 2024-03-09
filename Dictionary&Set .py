@@ -15,11 +15,26 @@
 # print(intro)
 
 
-# --------------------null Dictionary ------------------------------
+# --------------------null Dictionary ------------------------------#
 
-Null_Dectionary = {}
+# Null_Dectionary = {}
+# Null_Dectionary["name"] = "Bihan Pandey"
+# Null_Dectionary["Class"] = "Five"
+# print(Null_Dectionary)
 
-Null_Dectionary["name"] = "Bihan Pandey"
-Null_Dectionary["Class"] = "Five"
 
-print(Null_Dectionary)
+# ----------------------- Nested Dictionary ----------------------------#
+
+Detail = {
+    "Name" : "Sailesh",
+    "age" : "Twenty",
+    "location" : {
+        1 : "Boudha",
+        2 :  "Besigaun",
+        3 : "Jorpati" 
+    },
+    "Hi" : "Hello"
+}
+
+print(Detail)
+print(Detail["location"]) # print a=only one key 
