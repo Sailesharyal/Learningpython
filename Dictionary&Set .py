@@ -7,3 +7,10 @@ intro = {
 }
 
 print(intro)
+
+
+intro["Name"] =  "sailesh Aryal" # overwrite 
+intro["location"] = "Besigaun"
+
+print(intro)
+
