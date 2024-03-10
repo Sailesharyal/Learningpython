@@ -42,41 +42,41 @@
 
 
 
-# --------------------methods of Dictionary -------------------------------#
+# # --------------------methods of Dictionary -------------------------------#
 
-intro = {
-    "Name" : "Sailesh Aryal",
-    "Age" : 45 , 
-    "Address" : ["Boudha","Jorpati"],
-    "Language" : ("C+","Pyhton","JAVA"),
+# intro = {
+#     "Name" : "Sailesh Aryal",
+#     "Age" : 45 , 
+#     "Address" : ["Boudha","Jorpati"],
+#     "Language" : ("C+","Pyhton","JAVA"),
 
-}
-
-
-
-# print(intro.keys())
-# print(len(list(intro.keys())))    #converting into list 
+# }
 
 
-# #---Value method-----#
-# print(intro.values())      #returning all value 
+
+# # print(intro.keys())
+# # print(len(list(intro.keys())))    #converting into list 
 
 
-#---items method------#      
-
-print(intro.items())
-
-pairs =list(intro.items())
-print(pairs[1])   # printng the iteam with indexing 
+# # #---Value method-----#
+# # print(intro.values())      #returning all value 
 
 
-# ------Get method -----------# 
+# #---items method------#      
+
+# print(intro.items())
+
+# pairs =list(intro.items())
+# print(pairs[1])   # printng the iteam with indexing 
 
 
-print(intro["Name"])                    # these two are the same function but use case a different while using a get method we don't get error(none value )but we get user using a normal funcation 
-print(intro.get("Name"))                # if the values are not there 
+# # ------Get method -----------# 
 
 
-# ---------------Update  method---------------------#
-intro.update({"age": "Twenty"})
-print(intro)
+# print(intro["Name"])                    # these two are the same function but use case a different while using a get method we don't get error(none value )but we get user using a normal funcation 
+# print(intro.get("Name"))                # if the values are not there 
+
+
+# # ---------------Update  method---------------------#
+# intro.update({"age": "Twenty"})
+# print(intro)
