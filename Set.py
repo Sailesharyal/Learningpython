@@ -12,9 +12,39 @@
 # print(type(collection))
 
 
-le_Set  = {1,2,3,4,5,6,7,8}
+# #---------------------To create a emply set ------------------#
 
-print(le_Set)
+# info = set()
+
+# print(info)
+# print(type(info))
+
+
+# Some method in Set #
+
+Collection = {1,2,3,4}
+
+#-----add method-------#
+
+Collection.add(5)
+print(Collection)      # add an element
+
+
+# -----------remove method-------------# 
+Collection.remove(5)
+print(Collection)               # remove an element
+
+# -----pop method-----#
+
+Collection.pop()
+Collection.pop()  # remove a random value 
+print(Collection)
+
+
+# --------clear method ----#
+Collection.clear()
+print(Collection)
+
 
 
 
